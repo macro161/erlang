@@ -1,0 +1,12 @@
+%% Copyright
+
+%% Meta data about the application
+{application, editor_system, [
+  {description, "Factorial Calculation System - Testing Erlang OTP"},
+  {vsn, "1"},
+  % {modules,      [editor_system_app]},
+  {registered, []},
+  {applications, [kernel,stdlib]},
+  {mod, {editor_system_app, []}}, %% Entry point  to the application
+  {env, []}
+]}.
